@@ -8,7 +8,7 @@
 * Developed by elastic search BV which provides commercial solutions related to elastic search
 * Near Real Time Search.
 
-## Definitions
+## Terminology
 
 ### CLUSTER
 * A Cluster is a collection of nodes
