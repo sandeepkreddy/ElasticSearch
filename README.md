@@ -37,7 +37,6 @@
 * With in an index are types of documents
 * Document is a basic unit of information that can be indexed 
 * Consists of key value pairs , a value can be of various types such as string,date,object etc.
-* 
 * Represents a category/class of similar documents ,e.g : checkingaccount,savingsaccount, etc.
 * Consists of a name and a mapping
 * Simplified , you can think of type as a table in relational database.
