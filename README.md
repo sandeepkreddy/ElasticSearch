@@ -50,3 +50,17 @@
   the data types for each feild , e.g. string,integer,date ....
 * Also includes information on how the fields should be indexed and stored by lucene.
 * If no mapping is specified mapping of a document is done dynamicall by infering the data that is supplied.
+
+## Shards
+* An index can be divided into mltiple pieces called shards
+* A shard is a fully functional and independent index that can be stored on any node in a cluster.
+* The number of shards can be specified when creating an index.
+* Allows to scale horizontally by content volume (disk space).
+* Allows to distribute and parallelize operations across shards , which increases performance.
+
+## Replica
+* A Replica is a copy of a shard.
+* Provides high availability in case a shard or node fails.
+* A replica never resides on the same node that as the original shard.
+* Allows scaling search volumes , because search queries can be executed on all replicas in parallel.
+* by Default , Elastic Search adds 5 primary shards and 1 replica for each index.
